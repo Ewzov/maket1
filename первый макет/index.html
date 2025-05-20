@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/oathanrex/font-awesome-pro@main/fontawesome-pro-6.5.2-web/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Токранова</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bu">
+      <button>ВОЙТИ</button></div>
+      <div id="Modal" class="modal">
+        <div class="modal-content">
+          <div class="form-elements">
+            <span class="close"><i class="fa-solid fa-xmark"></i></span>
+            <h1>Вход</h1>
+            <form class="form">
+              <div class="form-group">
+                <label for="text">Телефон</label>
+                <input
+                  type="text"
+                  id="login-username"
+                  placeholder="+7 912"
+                  required
+                />
+              </div>
+              <button type="submit" class="vhod">Вход</button>
+              <div class="btns">
+                <button type="submit">Регистрация</button>
+                <button type="submit">Забыли пароль?</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="bu_kom">
+        <button>Написать комментарий</button></div>
+        <div id="Modal_kom" class="modal_kom">
+          <div class="modal_kom-content">
+            <div class="form-elements_kom">
+              <span class="close_kom"><i class="fa-solid fa-xmark"></i></span>
+              <h1>Комментарии</h1>
+              <form class="form_kom">
+                <div class="form-group_kom">
+                  <label for="text">Дмитрий (курьер) 21.01.2021</label>
+                  <input 
+                    type="text"
+                    id="one"
+                    placeholder="У клиента были гнилые половина помидоров. Он сказал возьмет их. Надо возместить бонусами."
+                    required
+                  />
+                </div>
+                <div class="form-group_kom">
+                  <label for="text">Аня (менеджер) 22.02.2021</label>
+                  <input
+                    type="text"
+                    id="two"
+                    placeholder="Созвонились с клиентом. Я начислила 50 балов."
+                    required
+                  />
+                </div>
+                <div class="form-group_kom">
+                  <input
+                    type="text"
+                    id="three"
+                    placeholder="Клие "
+                    required
+                  />
+                </div>
+                <button type="submit" class="send">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
